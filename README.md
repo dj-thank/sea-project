@@ -1,6 +1,6 @@
 # SEA
 
-> **2026-10-25：現状保存で開発をクローズしました。** 遊べる試作と成果物を保持し、残件は[親Issue #1と11件の子Issue](https://github.com/AICatchup/sea/issues/1)に整理しています。砕波の物理・自然さ・実写同等の品質は未達です。[クローズ記録・再開手順](docs/closeout-2026-10-25.md) · [現状V116の音付き記録](docs/checks/v116/review.html)
+> **2026-10-25：現状保存で開発をクローズしました。** 遊べる試作と成果物を保持し、残件は[親Issue #1と11件の子Issue](https://github.com/dj-thank/sea/issues/1)に整理しています。砕波の物理・自然さ・実写同等の品質は未達です。[クローズ記録・再開手順](docs/closeout-2026-10-25.md) · [現状V116の音付き記録](docs/checks/v116/review.html)
 
 **どこまでも、海。** 伊豆諸島の浜から泳ぎ出し、潜り、船で次の島へ。ブラウザで遊べる一続きの3D海洋アドベンチャーです。
 
@@ -77,7 +77,7 @@
 Node.js **22.13以降、または24系**とpnpmを用意します。
 
 ```sh
-git clone https://github.com/AICatchup/sea.git
+git clone https://github.com/dj-thank/sea.git
 cd sea
 pnpm install --frozen-lockfile
 pnpm dev

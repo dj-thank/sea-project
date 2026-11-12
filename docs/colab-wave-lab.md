@@ -6,7 +6,7 @@
 
 ## 再実行
 
-[Colabでノートブックを開く](https://colab.research.google.com/github/AICatchup/sea/blob/main/scripts/colab/sea-wave-physics.ipynb)。T4 GPUを選び、上から実行する。CUDAがなければ停止し、CPUへ黙って切り替えない。Driveマウント、秘密情報、追加購入は不要。既存のColab利用枠は消費し得る。
+[Colabでノートブックを開く](https://colab.research.google.com/github/dj-thank/sea/blob/main/scripts/colab/sea-wave-physics.ipynb)。T4 GPUを選び、上から実行する。CUDAがなければ停止し、CPUへ黙って切り替えない。Driveマウント、秘密情報、追加購入は不要。既存のColab利用枠は消費し得る。
 
 - `scripts/colab/wave_flume.py`: 重力、圧力、粘性、粒子近傍探索、海底境界を持つ3D WCSPH。
 - `scripts/colab/render_flume.py`: 粒子の側面・上面の診断動画。水面の美観映像ではない。

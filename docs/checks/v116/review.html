@@ -7,7 +7,7 @@
 <video controls preload="metadata" poster="wave-lifecycle.jpg" src="wave-lifecycle.mp4" aria-label="クローズ時点のゲーム映像・波音あり"></video>
 <button id="play">音付きで再生</button><button id="pause">一時停止</button><span id="times"></span><p id="status" role="status">未再生</p>
 <p class="note">台風うねり・目線1.25m。18秒の実ゲーム描画を最大1/60秒ずつ計算し、24fps・433フレームで保存しました。実時間FPSの測定ではありません。音声はゲームと同じ音声グラフから生成しています。</p>
-<p><a href="wave-lifecycle.mp4" download>音付きMP4を保存</a> · <a href="../../closeout-2026-10-25.md">クローズ記録</a> · <a href="https://github.com/AICatchup/sea/issues/1">再開用Issue一覧</a></p></main>
+<p><a href="wave-lifecycle.mp4" download>音付きMP4を保存</a> · <a href="../../closeout-2026-10-25.md">クローズ記録</a> · <a href="https://github.com/dj-thank/sea/issues/1">再開用Issue一覧</a></p></main>
 <script>
 const v=document.querySelector('video'),status=document.querySelector('#status');
 document.querySelector('#play').onclick=async()=>{v.muted=false;v.volume=1;try{await v.play();status.textContent='音声ありで再生中';}catch(e){status.textContent='再生できませんでした: '+e.message;}};
